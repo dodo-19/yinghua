@@ -14,10 +14,10 @@
 
 			Sakura.prototype.draw = function(cxt) {
 				cxt.save();
-				var xc = 25 * this.s / 4;
+				var xc = 20 * this.s / 4;
 				cxt.translate(this.x, this.y);
 				cxt.rotate(this.r);
-				cxt.drawImage(img, 0, 0, 40 * this.s, 40 * this.s)
+				cxt.drawImage(img, 0, 0, 25 * this.s, 25 * this.s)
 				cxt.restore();
 			}
 
