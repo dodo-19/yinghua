@@ -17,7 +17,7 @@
 				var xc = 20 * this.s / 4;
 				cxt.translate(this.x, this.y);
 				cxt.rotate(this.r);
-				cxt.drawImage(img, 0, 0, 25 * this.s, 25 * this.s)
+				cxt.drawImage(img, 0, 0, xc, xc)
 				cxt.restore();
 			}
 
